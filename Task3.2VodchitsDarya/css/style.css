@@ -1,0 +1,39 @@
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ 
+ header {
+     background-image: url(../images/headerback.jpg);
+     background-repeat: no-repeat;
+     background-position: 100%;
+     background-color: #fafafac5;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     padding: 40px;
+ }
+ 
+ .logo {
+     display: inline-block;
+     width: 50%;
+     vertical-align: middle;
+ }
+ 
+ .separator {
+     display: inline-block;
+     width: 2px;
+     height: 100px;
+     background-image: linear-gradient(to top, #FAFAFA, #a7a7a7, #FAFAFA);
+     margin-right: 60px;
+     vertical-align: middle;
+ }
+ 
+ .header-text {
+     width: 40%;
+     display: inline-block;
+     vertical-align: middle;
+ }
+ 
+ .selector-text {
+     color: rgb(118, 203, 231);
+ }
