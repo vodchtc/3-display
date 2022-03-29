@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
     background-image: url(../images/sky.png);
     background-size: cover;
@@ -17,15 +21,13 @@ header {
 }
 
 h1 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: normal;
+    font-weight: 500;
     font-size: 54px;
     color: #022b79;
     margin-bottom: 27px;
 }
 
 header p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     font-size: 18px;
 }
@@ -40,7 +42,6 @@ nav a {
     margin-right: 62px;
     color: #fff;
     text-decoration: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 main {
@@ -48,20 +49,9 @@ main {
     padding-bottom: 62px;
 }
 
-.right-column a {
-    color: #30233D;
-}
-
-.left-column {
-    display: inline-block;
-    width: 751px;
-    vertical-align: top;
-    margin-right: 30px;
-}
-
 .right-column {
     display: inline-block;
-    width: 361px;
+    width: 362px;
     vertical-align: top;
 }
 
@@ -73,12 +63,48 @@ main {
 
 .some-links {
     border: solid 2px #33008D;
-    padding: 19px 19px 26px 19px;
+    padding: 22px 64px 10.6px 19px;
+}
+
+.some-links a {
+    color: #30233D;
+}
+
+h3 {
+    padding: 14px 17px;
+    background-color: #24B0FF;
+    color: white;
+    font-weight: 700;
+    line-height: 31.64px;
+    font-size: 27px;
+}
+
+.right-column p {
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 163.5%;
+    padding-top: 14px;
+    padding-bottom: 26px;
+}
+
+ul {
+    list-style: none;
+    font-weight: 400;
+    font-size: 16.2px;
+    line-height: 163.5%;
+    padding-top: 22px;
+    padding-bottom: 10.6px;
+}
+
+.left-column {
+    display: inline-block;
+    max-width: 754px;
+    vertical-align: top;
+    margin-right: 26px;
 }
 
 h2 {
     color: #003395;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-style: bold;
     line-height: 31.64px;
     vertical-align: top;
@@ -89,36 +115,14 @@ h2 {
     border-bottom: 2px solid #003395;
 }
 
-h3 {
-    padding: 14px 17px;
-    background-color: #24B0FF;
-    color: white;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: bold;
-    line-height: 31.64px;
-    font-size: 27px;
+.left-column a {
+    color: #1923bb;
 }
 
 .left-column p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 26.46px;
     margin-bottom: 34px;
-}
-
-.right-column p {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: normal;
-    font-size: 16.2px;
-    line-height: 163.5%;
-}
-
-ul {
-    list-style: none;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: normal;
-    font-size: 16.2px;
-    line-height: 163.5%;
 }
 
 footer {
@@ -129,9 +133,8 @@ footer {
 
 .copyright p {
     color: #fff;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 11.7px;
-    font-weight: normal;
+    font-weight: 400;
     line-height: 163.35%;
     text-align: right;
 }
